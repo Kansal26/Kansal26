@@ -1,77 +1,79 @@
-# Hi, I'm Aditya Kansal 👋
+<p align="center">
+  <img src="assets/banner.svg" alt="Aditya Kansal: backend and full-stack developer" width="100%" />
+</p>
 
-**Backend-focused Full-Stack Developer** | B.Tech in Communication & Computer Engineering @ [LNMIIT Jaipur](https://www.lnmiit.ac.in/)
-
-I build reliable backend systems with **Java and Spring Boot**, and full-stack web apps with **React and Node.js**. I like turning slow, manual workflows into fast, automated ones, and I care about clean data models and query performance.
-
----
-
-## 🛠️ Tech Stack
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## 💼 Experience
-
-**IT & Data Analyst Intern, Central Bank of India** (May 2025 – Jul 2025)
-- Built a Java/Spring Boot data pipeline to automate high-volume government scheme registrations, **cutting manual processing time by 40%**.
-- Designed multi-layered compliance validation to catch applicant data errors and speed up approvals.
-- Optimized MySQL tracking with status-driven filtering, reducing manual verification effort.
-
----
-
-## 🚀 Featured Projects
-
-### 🏦 [Vartalaap Banking](https://github.com/Kansal26/spring-boot-bank-portal)
-`Java` `Spring Boot` `Thymeleaf` `MySQL` `HTML/CSS`
-A workflow platform for processing, filtering and tracking high-volume digital registrations. It includes multi-tier compliance validation, efficient real-time state filtering, and role-based state machines that enforce strict process boundaries across user roles.
-
-### 🎓 [Faculty Appraisal System](https://github.com/Sanskriti0805/Faculty_appraisal_system)
-`React` `Node.js` `Express` `MySQL` `Puppeteer` `Nodemailer`
-A full-stack appraisal platform. Fixed N+1 query bottlenecks with SQL JOINs (**~95% faster data retrieval**), generates PDF reports server-side with Puppeteer, and uses an Entity-Attribute-Value schema to handle highly variable form inputs.
-
-### 🧩 [Table Mind Magic](https://github.com/Kansal26/table-mind-magic)
-`TypeScript`
-<!-- TODO: add one line on what this project does and its tech stack -->
-
----
-
-## 🌟 Leadership
-
-- **Coordinator, Counselling & Guidance Cell, LNMIIT**: led a 55-member team running mentoring initiatives for 650+ participants.
-- **Coordinator, Debate Society, LNMIIT**: organized LNMIIT MUN 2026 with 150+ delegate registrations across 5+ committees.
-
----
-
-## 📈 GitHub Stats
-
-<p align="left">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Kansal26&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kansal26&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+<p align="center">
+  <a href="#-selected-work">Selected work</a> ·
+  <a href="#-experience">Experience</a> ·
+  <a href="#-what-i-reach-for">Stack</a> ·
+  <a href="#-beyond-code">Beyond code</a> ·
+  <a href="#-lets-connect">Contact</a>
 </p>
 
 ---
 
-## 📫 Let's Connect
+I build backend systems that take messy, high-volume input and turn it into something checked, tracked and fast: registrations that pass compliance rules, forms that generate reports, queries that don't crawl. Java and Spring Boot are my home base, and I build full-stack apps with React and Node.js when the problem needs a UI.
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adikansal2608@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-kansal-90423a287)
+## 🛠️ What I reach for
 
-*Open to internships and collaborations in backend and full-stack development.*
+| Area | Tools | Where it shows up |
+|---|---|---|
+| **Backend** | Java · Spring Boot · REST APIs · Thymeleaf | Vartalaap Banking, the Central Bank of India pipeline |
+| **Full-stack web** | React · Node.js · Express · TypeScript · HTML/CSS | Faculty Appraisal System |
+| **Data layer** | MySQL · SQL JOINs · query optimization · EAV schema design | Faculty Appraisal System, registration tracking at the bank |
+| **Automation** | Puppeteer · Nodemailer | Server-side PDF reports and email workflows |
+| **Fundamentals** | Data structures & algorithms in Java and C++ · Git | Real-time filtering in Vartalaap Banking |
 
-<!---
-Kansal26/Kansal26 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🧭 The shape of what I build
+
+```mermaid
+flowchart LR
+    A[Request in] --> B[Multi-tier validation]
+    B --> C{Allowed for this role and state?}
+    C -- no --> D[Reject with a reason]
+    C -- yes --> E[Optimized query: JOINs, filtering]
+    E --> F[Tracked result out]
+```
+
+Validate early, make state transitions explicit, and keep the database work efficient. That pattern shows up in most of what I've built below.
+
+## 🚀 Selected work
+
+| Project | The hard part |
+|---|---|
+| [**Vartalaap Banking**](https://github.com/Kansal26/spring-boot-bank-portal)<br>`Java` `Spring Boot` `Thymeleaf` `MySQL` | Routing high-volume digital registrations through multi-tier compliance checks, with role-based state machines so records only move through allowed transitions and real-time state filtering stays fast. |
+| [**Faculty Appraisal System**](https://github.com/Sanskriti0805/Faculty_appraisal_system)<br>`React` `Node.js` `Express` `MySQL` `Puppeteer` | Removing N+1 query bottlenecks with SQL JOINs (**~95% faster data retrieval**), an Entity-Attribute-Value schema for highly variable form inputs, and server-side Puppeteer PDF generation for reports. |
+
+<!--
+Add table-mind-magic here once you have a one-line description, in this format:
+| [**Table Mind Magic**](https://github.com/Kansal26/table-mind-magic)<br>`TypeScript` | What the hard part was. |
+-->
+
+## 💼 Experience
+
+| Role | What I did |
+|---|---|
+| **IT & Data Analyst Intern**<br>Central Bank of India<br>*May – Jul 2025* | Built a Java/Spring Boot pipeline that automated high-volume government scheme registrations (**40% less manual processing time**). Wrote multi-layered compliance validation for applicant data, and optimized MySQL status tracking so far less manual verification was needed. |
+
+## 🌟 Beyond code
+
+| Where | What |
+|---|---|
+| **Counselling & Guidance Cell, LNMIIT** | Coordinator, leading a 55-member team running mentoring initiatives and activities for 650+ participants (Mar 2025 – Aug 2026) |
+| **Debate Society, LNMIIT** | Coordinator, organized LNMIIT MUN 2026 with 150+ delegate registrations across 5+ committees |
+| **Entrance exam** | JEE Main 2023: 96.45 percentile |
+
+## 🔭 Currently
+
+- Building full-stack projects with **React, Node.js and TypeScript**
+- Deepening my backend skills with **Spring Boot, REST APIs and MySQL**
+- Practicing data structures and algorithms in **Java and C++**
+
+## 📫 Let's connect
+
+<p align="center">
+  <a href="mailto:adikansal2608@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/aditya-kansal-90423a287"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
+
+<p align="center"><i>Open to internships and collaborations in backend and full-stack development.</i></p>
