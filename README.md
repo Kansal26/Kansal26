@@ -19,8 +19,8 @@ I build backend systems that take messy, high-volume input and turn it into some
 | Area | Tools | Where it shows up |
 |---|---|---|
 | **Backend** | Java · Spring Boot · REST APIs · Thymeleaf | Vartalaap Banking, the Central Bank of India pipeline |
-| **Full-stack web** | React · Node.js · Express · TypeScript · HTML/CSS | Faculty Appraisal System |
-| **Data layer** | MySQL · SQL JOINs · query optimization · EAV schema design | Faculty Appraisal System, registration tracking at the bank |
+| **Full-stack web** | React · TypeScript · Node.js · Express · Tailwind CSS · TanStack Router · HTML/CSS | TableMind, Faculty Appraisal System |
+| **Data layer** | MySQL · PostgreSQL (Supabase) · SQL JOINs · query optimization · EAV schema design · Row Level Security | TableMind, Faculty Appraisal System, registration tracking at the bank |
 | **Automation** | Puppeteer · Nodemailer | Server-side PDF reports and email workflows |
 | **Fundamentals** | Data structures & algorithms in Java and C++ · Git | Real-time filtering in Vartalaap Banking |
 
@@ -42,12 +42,8 @@ Validate early, make state transitions explicit, and keep the database work effi
 | Project | The hard part |
 |---|---|
 | [**Vartalaap Banking**](https://github.com/Kansal26/spring-boot-bank-portal)<br>`Java` `Spring Boot` `Thymeleaf` `MySQL` | Routing high-volume digital registrations through multi-tier compliance checks, with role-based state machines so records only move through allowed transitions and real-time state filtering stays fast. |
+| [**TableMind**](https://github.com/Kansal26/table-mind-magic)<br>`React` `TypeScript` `TanStack Router` `Tailwind` `Supabase` | A QR-based restaurant ordering platform: personalized menus that highlight allergy-safe options, voice ordering, per-dish feedback and an admin dashboard for live orders and sales. Restaurant data is isolated with PostgreSQL Row Level Security, and the schema uses foreign keys and cascading deletes so orphaned records can't exist. |
 | [**Faculty Appraisal System**](https://github.com/Sanskriti0805/Faculty_appraisal_system)<br>`React` `Node.js` `Express` `MySQL` `Puppeteer` | Removing N+1 query bottlenecks with SQL JOINs (**~95% faster data retrieval**), an Entity-Attribute-Value schema for highly variable form inputs, and server-side Puppeteer PDF generation for reports. |
-
-<!--
-Add table-mind-magic here once you have a one-line description, in this format:
-| [**Table Mind Magic**](https://github.com/Kansal26/table-mind-magic)<br>`TypeScript` | What the hard part was. |
--->
 
 ## 💼 Experience
 
